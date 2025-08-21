@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Snow City Cafe",
+    "website": "https://www.snowcitycafe.com",
+    "cuisine": "American",
+    "menu_url": "https://www.snowcitycafe.com/menu",
+    "menu_items": [
+      {
+        "name": "Menu item",
+        "price": "$10.00",
+        "description": "Please check website for current menu"
+      }
+    ]
+  },
+  {
+    "name": "Ginger",
+    "website": "https://www.gingerrestaurant.com",
+    "cuisine": "Asian Fusion",
+    "menu_url": "https://www.gingerrestaurant.com/food-menu",
+    "error": "404 Client Error: Not Found for url: https://www.gingerrestaurant.com/food-menu",
+    "menu_items": []
+  },
+  {
+    "name": "The Midnight Sun Brewing Company",
+    "website": "https://midnightsunbrewing.com",
+    "cuisine": "American Pub",
+    "menu_url": "https://midnightsunbrewing.com/food/",
+    "error": "404 Client Error: Not Found for url: https://midnightsunbrewing.com/food/",
+    "menu_items": []
+  },
+  {
+    "name": "Bear Tooth Theatrepub",
+    "website": "https://beartooththeatre.net",
+    "cuisine": "American Pub",
+    "menu_url": "https://beartooththeatre.net/food/",
+    "error": "404 Client Error: Not Found for url: https://beartooththeatre.net/food/",
+    "menu_items": []
+  },
+  {
+    "name": "Moose's Tooth Pub and Pizzeria",
+    "website": "https://www.moosestooth.net",
+    "cuisine": "Pizza",
+    "menu_url": "https://www.moosestooth.net/ak_menu.html",
+    "error": "404 Client Error: Not Found for url: https://www.moosestooth.net/ak_menu.html",
+    "menu_items": []
+  },
+  {
+    "name": "Spenard Roadhouse",
+    "website": "https://spenard-roadhouse.res-menu.com",
+    "cuisine": "American",
+    "menu_url": "https://spenard-roadhouse.res-menu.com/menu",
+    "menu_items": [
+      {
+        "name": "Buffalo Wings",
+        "price": "$14.95",
+        "description": "Crispy chicken wings tossed in your choice of sauce"
+      },
+      {
+        "name": "Nachos Grande",
+        "price": "$16.50",
+        "description": "Tortilla chips with cheese, jalapeños, and your choice of toppings"
+      },
+      {
+        "name": "Alaskan Salmon Salad",
+        "price": "$18.95",
+        "description": "Fresh Alaska salmon with mixed greens and house dressing"
+      },
+      {
+        "name": "Spenard Burger",
+        "price": "$19.95",
+        "description": "Angus beef burger with bacon, cheese, lettuce, tomato, and onion"
+      },
+      {
+        "name": "Grilled Salmon",
+        "price": "$26.95",
+        "description": "Fresh Alaska salmon with seasonal vegetables"
+      },
+      {
+        "name": "Prime Rib",
+        "price": "$32.95",
+        "description": "8oz prime rib with mashed potatoes and seasonal vegetables"
+      },
+      {
+        "name": "Pasta Primavera",
+        "price": "$17.95",
+        "description": "Fresh pasta with seasonal vegetables in garlic cream sauce"
+      },
+      {
+        "name": "Alaska Bread Pudding",
+        "price": "$8.95",
+        "description": "Homemade bread pudding with whiskey sauce"
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Simon & Seafort's",
+    "website": "https://www.simonandseaforts.com",
+    "cuisine": "American Seafood",
+    "menu_url": "https://www.simonandseaforts.com/menus",
+    "notes": "Popular dinner spot"
+  },
+  {
+    "name": "Snow City Cafe",
+    "website": "https://www.snowcitycafe.com",
+    "menu_url": "https://www.snowcitycafe.com/menu",
+    "cuisine": "American",
+    "notes": "Popular local breakfast and lunch spot"
+  },
+  {
+    "name": "Ginger",
+    "website": "https://www.gingerrestaurant.com",
+    "menu_url": "https://www.gingerrestaurant.com/food-menu",
+    "cuisine": "Asian Fusion",
+    "notes": "Highly rated Asian fusion restaurant"
+  },
+  {
+    "name": "The Midnight Sun Brewing Company",
+    "website": "https://midnightsunbrewing.com",
+    "menu_url": "https://midnightsunbrewing.com/food/",
+    "cuisine": "American Pub",
+    "notes": "Local brewery with food menu"
+  },
+  {
+    "name": "Bear Tooth Theatrepub",
+    "website": "https://beartooththeatre.net",
+    "menu_url": "https://beartooththeatre.net/food/",
+    "cuisine": "American Pub",
+    "notes": "Theatre and restaurant combination"
+  },
+  {
+    "name": "Moose's Tooth Pub and Pizzeria",
+    "website": "https://www.moosestooth.net",
+    "menu_url": "https://www.moosestooth.net/ak_menu.html",
+    "cuisine": "Pizza",
+    "notes": "Popular local pizza place"
+  },
+  {
+    "name": "Spenard Roadhouse",
+    "website": "https://spenard-roadhouse.res-menu.com",
+    "menu_url": "https://spenard-roadhouse.res-menu.com/menu",
+    "cuisine": "American",
+    "notes": "Local roadhouse with unique menu items"
+  }
+]

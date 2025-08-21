@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Value Restaurants in Anchorage, Alaska</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Best Value Restaurants in Anchorage, Alaska</h1>
+        <p>Discover the best value dishes based on price, quality, and cost to make</p>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>About This Guide</h2>
+            <p>This guide ranks restaurants and dishes in Anchorage based on value metrics that consider price, quality ratings, and estimated cost to make. The value rating is calculated as (Price - Cost to Make) / Price, while perceived value considers the overall rating in relation to price and cost.</p>
+        </section>
+
+        <section id="best-value-dishes">
+            <h2>Top Value Dishes</h2>
+            <div class="sort-controls">
+                <label for="sort-by">Sort by:</label>
+                <select id="sort-by">
+                    <option value="perceived_value">Perceived Value</option>
+                    <option value="value_rating">Value Rating</option>
+                    <option value="price">Price (Low to High)</option>
+                    <option value="rating">Overall Rating</option>
+                </select>
+            </div>
+            <div id="dishes-container">
+                <!-- Dishes will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="restaurants">
+            <h2>Featured Restaurants</h2>
+            <div id="restaurants-container">
+                <!-- Restaurants will be loaded here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Data compiled from publicly available menus. Values are estimates based on typical food costs.</p>
+        <p>Last updated: <span id="last-updated"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

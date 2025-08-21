@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Simon & Seafort's",
+    "website": "https://www.simonandseaforts.com",
+    "cuisine": "American Seafood",
+    "menu_url": "https://www.simonandseaforts.com/menus",
+    "menu_items": [
+      {
+        "name": "Oven Roasted Crab and Artichoke Dip",
+        "price": "$19.50",
+        "description": "Parmesan, sweet onion, toasted baguette",
+        "price_numeric": 19.5,
+        "cost_to_make": 5.85,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Shareables"
+      },
+      {
+        "name": "Tasting Sampler",
+        "price": "$39",
+        "description": "Oven Roasted Crab & Artichoke Dip, Seared Teriyaki Tenderloins, Coconut Shrimp",
+        "price_numeric": 39.0,
+        "cost_to_make": 11.7,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Shareables"
+      },
+      {
+        "name": "Crispy Calamari",
+        "price": "$18",
+        "description": "Artichoke hearts, mustard-garlic aioli, Bloody Mary cocktail sauce",
+        "price_numeric": 18.0,
+        "cost_to_make": 5.4,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Shareables"
+      },
+      {
+        "name": "Coconut Shrimp",
+        "price": "$15",
+        "description": "Cajun marmalade, green onion, crispy noodles",
+        "price_numeric": 15.0,
+        "cost_to_make": 4.5,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Shareables"
+      },
+      {
+        "name": "Warm Brie with Macadamia Nut Crust",
+        "price": "$18",
+        "description": "Orange-blossom honey, sliced apple, balsamic reduction, fruit compote",
+        "price_numeric": 18.0,
+        "cost_to_make": 5.4,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Shareables"
+      },
+      {
+        "name": "Oysters on the Half Shell",
+        "price": "$27",
+        "description": "Bloody Mary cocktail sauce, mignonette, lemon 1/2 dozen",
+        "price_numeric": 27.0,
+        "cost_to_make": 8.1,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Shareables"
+      },
+      {
+        "name": "Seared Teriyaki Beef Tidbits",
+        "price": "$19",
+        "description": "Sushi rice, pickled ginger, micro radish sprouts, togarashi sesame seeds",
+        "price_numeric": 19.0,
+        "cost_to_make": 5.7,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Shareables"
+      },
+      {
+        "name": "New England Clam Chowder",
+        "price": "$10",
+        "description": "Cup",
+        "price_numeric": 10.0,
+        "cost_to_make": 3.0,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Bowls & Greens"
+      },
+      {
+        "name": "French Onion Soup",
+        "price": "$12.50",
+        "description": "House-made bone broth, caramelized onions, toasted baguette, Swiss and Parmesan cheese Bowl",
+        "price_numeric": 12.5,
+        "cost_to_make": 3.75,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Bowls & Greens"
+      },
+      {
+        "name": "Summer Picnic Salad",
+        "price": "$13",
+        "description": "Crisp prosciutto, heirloom tomatoes, mozzarella, baby spinach, frisee, watermelon basil vinaigrette",
+        "price_numeric": 13.0,
+        "cost_to_make": 3.9,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Bowls & Greens"
+      },
+      {
+        "name": "Blue Affinee Cheese",
+        "price": "$11.90",
+        "description": "Romaine greens, toasted sliced almonds, chopped egg, blue cheese crumbles",
+        "price_numeric": 11.9,
+        "cost_to_make": 3.57,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Bowls & Greens"
+      },
+      {
+        "name": "Romaine Caesar",
+        "price": "$11.50",
+        "description": "Parmesan, artisan crouton, house-made dressing, lemon",
+        "price_numeric": 11.5,
+        "cost_to_make": 3.45,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Bowls & Greens"
+      },
+      {
+        "name": "Spinach Salad",
+        "price": "$13",
+        "description": "Pickled red onion, chopped egg, bacon, almonds, egg-mustard dressing",
+        "price_numeric": 13.0,
+        "cost_to_make": 3.9,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Bowls & Greens"
+      },
+      {
+        "name": "Alaskan Halibut & Chips",
+        "price": "$36",
+        "description": "Beer battered, French fries, house-made tartar, lemon",
+        "price_numeric": 36.0,
+        "cost_to_make": 10.8,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Casual Fare"
+      },
+      {
+        "name": "Char-Grilled Chophouse Burger",
+        "price": "$20",
+        "description": "Cheddar, bacon, grilled red onion, lettuce, tomato, house sauce",
+        "price_numeric": 20.0,
+        "cost_to_make": 6.0,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Casual Fare"
+      },
+      {
+        "name": "Rigatoni Bolognese",
+        "price": "$23.75",
+        "description": "Italian sausage, garlic cream, tomatoes, Parmesan",
+        "price_numeric": 23.75,
+        "cost_to_make": 7.12,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Casual Fare"
+      },
+      {
+        "name": "Alaskan Halibut",
+        "price": "$48",
+        "description": "",
+        "price_numeric": 48.0,
+        "cost_to_make": 14.4,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Alaskan Catch"
+      },
+      {
+        "name": "Black Cod",
+        "price": "$38",
+        "description": "",
+        "price_numeric": 38.0,
+        "cost_to_make": 11.4,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Alaskan Catch"
+      },
+      {
+        "name": "Wild Sockeye Salmon",
+        "price": "$38",
+        "description": "",
+        "price_numeric": 38.0,
+        "cost_to_make": 11.4,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Alaskan Catch"
+      },
+      {
+        "name": "Wild King Salmon",
+        "price": "$54",
+        "description": "",
+        "price_numeric": 54.0,
+        "cost_to_make": 16.2,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Alaskan Catch"
+      },
+      {
+        "name": "Asparagus & Tomato Relish",
+        "price": "$4",
+        "description": "",
+        "price_numeric": 4.0,
+        "cost_to_make": 1.2,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Alaskan Catch"
+      },
+      {
+        "name": "Roasted Mushrooms",
+        "price": "$4",
+        "description": "",
+        "price_numeric": 4.0,
+        "cost_to_make": 1.2,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Alaskan Catch"
+      },
+      {
+        "name": "New Orleans BBQ Shrimp",
+        "price": "$7",
+        "description": "",
+        "price_numeric": 7.0,
+        "cost_to_make": 2.1,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Alaskan Catch"
+      },
+      {
+        "name": "King Salmon with Watermelon Panzanella",
+        "price": "$58",
+        "description": "Seared, arugula, watermelon relish, beurre blanc, balsamic glaze",
+        "price_numeric": 58.0,
+        "cost_to_make": 17.4,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "From The Sea"
+      },
+      {
+        "name": "Pan Seared Alaskan Halibut Cheeks",
+        "price": "$46",
+        "description": "Asiago panko crust, Yukon Gold mashed potatoes, baby frisee, lemon vinaigrette, beurre blanc",
+        "price_numeric": 46.0,
+        "cost_to_make": 13.8,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "From The Sea"
+      },
+      {
+        "name": "Crab & Shrimp Fettucine",
+        "price": "$32.50",
+        "description": "Garlic cream, white wine, clam broth, tomato, spinach, chili flakes, Parmesan",
+        "price_numeric": 32.5,
+        "cost_to_make": 9.75,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "From The Sea"
+      },
+      {
+        "name": "Crab Stuffed Halibut",
+        "price": "$55",
+        "description": "Macadamia nut crust, panko bread crumbs, Yukon gold mashed potatoes, market fresh vegetables, beurre blanc",
+        "price_numeric": 55.0,
+        "cost_to_make": 16.5,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "From The Sea"
+      },
+      {
+        "name": "Almond Crusted Sea Scallops",
+        "price": "$36.50",
+        "description": "Pan seared, asiago and almond crust, mashed potatoes, caramelized onions, asparagus, fire roasted red peppers, beurre blanc",
+        "price_numeric": 36.5,
+        "cost_to_make": 10.95,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "From The Sea"
+      },
+      {
+        "name": "Black Cod",
+        "price": "$42",
+        "description": "Bourbon Miso Maple glazed sablefish, bok choy, Sushi rice, togarashi",
+        "price_numeric": 42.0,
+        "cost_to_make": 12.6,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "From The Sea"
+      },
+      {
+        "name": "Alaskan Golden King Crab Legs (1-1/4 lbs.)",
+        "price": "$130",
+        "description": "Roasted fingerling potatoes, asparagus, melted butter",
+        "price_numeric": 130.0,
+        "cost_to_make": 39.0,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "From The Sea"
+      },
+      {
+        "name": "Slow Roasted Herb Crusted Prime Rib",
+        "price": "$46",
+        "description": "Yukon Gold mashed potatoes, au jus, creamy horseradish 12 oz.",
+        "price_numeric": 46.0,
+        "cost_to_make": 13.8,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Beef & Fowl"
+      },
+      {
+        "name": "Char-Grilled Steaks",
+        "price": "$51",
+        "description": "Filet Mignon 8 oz.*",
+        "price_numeric": 51.0,
+        "cost_to_make": 15.3,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Beef & Fowl"
+      },
+      {
+        "name": "American Wagyu Sirloin",
+        "price": "$39",
+        "description": "8 oz.*",
+        "price_numeric": 39.0,
+        "cost_to_make": 11.7,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Beef & Fowl"
+      },
+      {
+        "name": "Ribeye",
+        "price": "$58",
+        "description": "16 oz.*",
+        "price_numeric": 58.0,
+        "cost_to_make": 17.4,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Beef & Fowl"
+      },
+      {
+        "name": "Oven-Roasted Chicken Dijon",
+        "price": "$28",
+        "description": "Parmesan panko crust, Yukon Gold mashed potatoes, wilted spinach",
+        "price_numeric": 28.0,
+        "cost_to_make": 8.4,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Beef & Fowl"
+      },
+      {
+        "name": "Crab & Béarnaise",
+        "price": "$14",
+        "description": "",
+        "price_numeric": 14.0,
+        "cost_to_make": 4.2,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Accompaniments & Toppings"
+      },
+      {
+        "name": "Grilled Garlic Shrimp",
+        "price": "$11",
+        "description": "",
+        "price_numeric": 11.0,
+        "cost_to_make": 3.3,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Accompaniments & Toppings"
+      },
+      {
+        "name": "North Atlantic Lobster & Beurre Blanc",
+        "price": "$36",
+        "description": "",
+        "price_numeric": 36.0,
+        "cost_to_make": 10.8,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Accompaniments & Toppings"
+      },
+      {
+        "name": "Almond Crusted Sea Scallops",
+        "price": "$15",
+        "description": "",
+        "price_numeric": 15.0,
+        "cost_to_make": 4.5,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Accompaniments & Toppings"
+      },
+      {
+        "name": "Compound Butters",
+        "price": "$3",
+        "description": "Steak-House, Leek and Blue Cheese or Caramelized Shallot and Roasted Garlic",
+        "price_numeric": 3.0,
+        "cost_to_make": 0.9,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Accompaniments & Toppings"
+      },
+      {
+        "name": "Roasted Mushrooms",
+        "price": "$9",
+        "description": "",
+        "price_numeric": 9.0,
+        "cost_to_make": 2.7,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Complements"
+      },
+      {
+        "name": "White Cheddar Mac & Cheese",
+        "price": "$10.50",
+        "description": "",
+        "price_numeric": 10.5,
+        "cost_to_make": 3.15,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Complements"
+      },
+      {
+        "name": "Chargrilled Asparagus & Béarnaise",
+        "price": "$13",
+        "description": "",
+        "price_numeric": 13.0,
+        "cost_to_make": 3.9,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Complements"
+      },
+      {
+        "name": "Alaskan Golden King Crab Legs",
+        "price": "$120",
+        "description": "20oz",
+        "price_numeric": 120.0,
+        "cost_to_make": 36.0,
+        "value_rating": 0.7,
+        "perceived_value": 0.3,
+        "overall_rating": 4.0,
+        "section": "Complements"
+      }
+    ]
+  },
+  {
+    "name": "Snow City Cafe",
+    "website": "https://www.snowcitycafe.com",
+    "cuisine": "American",
+    "menu_url": "https://www.snowcitycafe.com/menu",
+    "menu_items": [
+      {
+        "name": "Menu item",
+        "price": "$10.00",
+        "description": "Please check website for current menu",
+        "price_numeric": 10.0,
+        "cost_to_make": 3.0,
+        "value_rating": 0.7,
+        "perceived_value": 0.346,
+        "overall_rating": 4.5
+      }
+    ]
+  },
+  {
+    "name": "Ginger",
+    "website": "https://www.gingerrestaurant.com",
+    "cuisine": "Asian Fusion",
+    "menu_url": "https://www.gingerrestaurant.com/food-menu",
+    "error": "404 Client Error: Not Found for url: https://www.gingerrestaurant.com/food-menu",
+    "menu_items": []
+  },
+  {
+    "name": "The Midnight Sun Brewing Company",
+    "website": "https://midnightsunbrewing.com",
+    "cuisine": "American Pub",
+    "menu_url": "https://midnightsunbrewing.com/food/",
+    "error": "404 Client Error: Not Found for url: https://midnightsunbrewing.com/food/",
+    "menu_items": []
+  },
+  {
+    "name": "Bear Tooth Theatrepub",
+    "website": "https://beartooththeatre.net",
+    "cuisine": "American Pub",
+    "menu_url": "https://beartooththeatre.net/food/",
+    "error": "404 Client Error: Not Found for url: https://beartooththeatre.net/food/",
+    "menu_items": []
+  },
+  {
+    "name": "Moose's Tooth Pub and Pizzeria",
+    "website": "https://www.moosestooth.net",
+    "cuisine": "Pizza",
+    "menu_url": "https://www.moosestooth.net/ak_menu.html",
+    "error": "404 Client Error: Not Found for url: https://www.moosestooth.net/ak_menu.html",
+    "menu_items": []
+  },
+  {
+    "name": "Spenard Roadhouse",
+    "website": "https://spenard-roadhouse.res-menu.com",
+    "cuisine": "American",
+    "menu_url": "https://spenard-roadhouse.res-menu.com/menu",
+    "menu_items": [
+      {
+        "name": "Buffalo Wings",
+        "price": "$14.95",
+        "description": "Crispy chicken wings tossed in your choice of sauce",
+        "price_numeric": 14.95,
+        "cost_to_make": 4.48,
+        "value_rating": 0.7,
+        "perceived_value": 0.206,
+        "overall_rating": 4.0
+      },
+      {
+        "name": "Nachos Grande",
+        "price": "$16.50",
+        "description": "Tortilla chips with cheese, jalape\u00c3\u00b1os, and your choice of toppings",
+        "price_numeric": 16.5,
+        "cost_to_make": 4.95,
+        "value_rating": 0.7,
+        "perceived_value": 0.186,
+        "overall_rating": 4.0
+      },
+      {
+        "name": "Alaskan Salmon Salad",
+        "price": "$18.95",
+        "description": "Fresh Alaska salmon with mixed greens and house dressing",
+        "price_numeric": 18.95,
+        "cost_to_make": 5.68,
+        "value_rating": 0.7,
+        "perceived_value": 0.162,
+        "overall_rating": 4.0
+      },
+      {
+        "name": "Spenard Burger",
+        "price": "$19.95",
+        "description": "Angus beef burger with bacon, cheese, lettuce, tomato, and onion",
+        "price_numeric": 19.95,
+        "cost_to_make": 5.98,
+        "value_rating": 0.7,
+        "perceived_value": 0.154,
+        "overall_rating": 4.0
+      },
+      {
+        "name": "Grilled Salmon",
+        "price": "$26.95",
+        "description": "Fresh Alaska salmon with seasonal vegetables",
+        "price_numeric": 26.95,
+        "cost_to_make": 8.08,
+        "value_rating": 0.7,
+        "perceived_value": 0.114,
+        "overall_rating": 4.0
+      },
+      {
+        "name": "Prime Rib",
+        "price": "$32.95",
+        "description": "8oz prime rib with mashed potatoes and seasonal vegetables",
+        "price_numeric": 32.95,
+        "cost_to_make": 9.88,
+        "value_rating": 0.7,
+        "perceived_value": 0.093,
+        "overall_rating": 4.0
+      },
+      {
+        "name": "Pasta Primavera",
+        "price": "$17.95",
+        "description": "Fresh pasta with seasonal vegetables in garlic cream sauce",
+        "price_numeric": 17.95,
+        "cost_to_make": 5.38,
+        "value_rating": 0.7,
+        "perceived_value": 0.171,
+        "overall_rating": 4.0
+      },
+      {
+        "name": "Alaska Bread Pudding",
+        "price": "$8.95",
+        "description": "Homemade bread pudding with whiskey sauce",
+        "price_numeric": 8.95,
+        "cost_to_make": 2.68,
+        "value_rating": 0.7,
+        "perceived_value": 0.344,
+        "overall_rating": 4.0
+      }
+    ]
+  }
+]

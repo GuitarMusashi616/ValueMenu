@@ -1,0 +1,48 @@
+{
+  "name": "Spenard Roadhouse",
+  "website": "https://spenard-roadhouse.res-menu.com",
+  "cuisine": "American",
+  "menu_url": "https://spenard-roadhouse.res-menu.com/menu",
+  "menu_items": [
+    {
+      "name": "Buffalo Wings",
+      "price": "$14.95",
+      "description": "Crispy chicken wings tossed in your choice of sauce"
+    },
+    {
+      "name": "Nachos Grande",
+      "price": "$16.50",
+      "description": "Tortilla chips with cheese, jalapeños, and your choice of toppings"
+    },
+    {
+      "name": "Alaskan Salmon Salad",
+      "price": "$18.95",
+      "description": "Fresh Alaska salmon with mixed greens and house dressing"
+    },
+    {
+      "name": "Spenard Burger",
+      "price": "$19.95",
+      "description": "Angus beef burger with bacon, cheese, lettuce, tomato, and onion"
+    },
+    {
+      "name": "Grilled Salmon",
+      "price": "$26.95",
+      "description": "Fresh Alaska salmon with seasonal vegetables"
+    },
+    {
+      "name": "Prime Rib",
+      "price": "$32.95",
+      "description": "8oz prime rib with mashed potatoes and seasonal vegetables"
+    },
+    {
+      "name": "Pasta Primavera",
+      "price": "$17.95",
+      "description": "Fresh pasta with seasonal vegetables in garlic cream sauce"
+    },
+    {
+      "name": "Alaska Bread Pudding",
+      "price": "$8.95",
+      "description": "Homemade bread pudding with whiskey sauce"
+    }
+  ]
+}
