@@ -82,7 +82,7 @@ function createRestaurantCard(restaurant) {
         <div class="restaurant-info">
             <div class="restaurant-rating">
                 <span>Rating:</span>
-                <span class="restaurant-rating-value">${formatRating(restaurant.menu_items[0].overall_rating)}</span>
+                <span class="restaurant-rating-value">${restaurant.menu_items && restaurant.menu_items.length > 0 ? formatRating(restaurant.menu_items[0].overall_rating) : 'No rating available'}</span>
             </div>
             <div class="restaurant-website">
                 <a href="${restaurant.website}" target="_blank">Website</a>
@@ -94,7 +94,7 @@ function createRestaurantCard(restaurant) {
         <div class="restaurant-dishes">
             <h4>Menu Items</h4>
             <div class="dish-list">
-                ${dishListHTML}
+                ${dishListHTML || '<p>No menu items available</p>'}
             </div>
         </div>
     `;
@@ -105,8 +105,30 @@ function createRestaurantCard(restaurant) {
 // Function to load and display best value dishes
 async function loadBestValueDishes() {
     try {
-        const response = await fetch('./data/best_value_items.json');
-        const bestValueData = await response.json();
+        const response = await fetch('./data/processed_menu_data.json');
+        const restaurants = await response.json();
+        
+        // Extract all dishes from all restaurants
+        const allDishes = [];
+        restaurants.forEach(restaurant => {
+            if (restaurant.menu_items && restaurant.menu_items.length > 0) {
+                restaurant.menu_items.forEach(dish => {
+                    // Add restaurant name to dish object for display
+                    const dishWithRestaurant = {
+                        ...dish,
+                        restaurant_name: restaurant.name,
+                        cuisine: restaurant.cuisine
+                    };
+                    allDishes.push(dishWithRestaurant);
+                });
+            }
+        });
+        
+        // Create best value data structure similar to the old format
+        const bestValueData = {
+            by_value_rating: [...allDishes].sort((a, b) => b.value_rating - a.value_rating),
+            by_perceived_value: [...allDishes].sort((a, b) => b.perceived_value - a.perceived_value)
+        };
         
         const dishesContainer = document.getElementById('dishes-container');
         dishesContainer.innerHTML = ''; // Clear existing content
